@@ -4,6 +4,12 @@ title: "[Feature] "
 labels:
   - enhancement
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not include personal data, account names, full local paths, logs, screenshots, or diagnostic dumps. Report security vulnerabilities privately through the repository Security policy.
+
+        개인정보, 계정명, 전체 로컬 경로, 로그, 화면 캡처, 진단 덤프를 포함하지 마세요. 보안 취약점은 저장소의 Security policy를 통해 비공개로 제보해 주세요.
   - type: textarea
     id: problem
     attributes:
