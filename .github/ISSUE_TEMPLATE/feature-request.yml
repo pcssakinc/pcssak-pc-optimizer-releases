@@ -1,0 +1,25 @@
+name: "Feature request / 기능 제안"
+description: "Suggest a safe, measurable improvement. / 안전하고 측정 가능한 개선을 제안합니다."
+title: "[Feature] "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: "Problem to solve / 해결할 문제"
+      description: "Describe the user problem rather than only a preferred implementation. / 구현 방식보다 사용자가 겪는 문제를 설명하세요."
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: "Expected outcome / 기대 효과"
+      description: "Explain how speed, accuracy, stability, compatibility, security, or usability can be measured. / 속도·정확성·안정성·호환성·보안성·편의성을 어떻게 측정할지 적으세요."
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: "Risks and alternatives / 위험과 대안"
+      description: "Include recovery expectations for system-changing features. / 시스템 변경 기능이면 복구 기대사항을 포함하세요."

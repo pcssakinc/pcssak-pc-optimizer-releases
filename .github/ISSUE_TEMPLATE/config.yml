@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "Security report / 보안 제보"
+    url: "https://github.com/pcssakinc/pcssak-pc-optimizer-releases/security/policy"
+    about: "Do not disclose exploitable details publicly. / 악용 가능한 세부 내용은 공개하지 마세요."
+  - name: "Support guide / 지원 안내"
+    url: "https://github.com/pcssakinc/pcssak-pc-optimizer-releases/blob/main/SUPPORT.md"
+    about: "Check support scope and privacy guidance first. / 지원 범위와 개인정보 안내를 먼저 확인하세요."

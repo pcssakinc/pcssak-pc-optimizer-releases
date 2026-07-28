@@ -1,0 +1,65 @@
+name: "Bug report / 오류 제보"
+description: "Report a reproducible, non-security defect with private data removed. / 개인정보를 제거한 재현 가능한 일반 오류를 제보합니다."
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not report security vulnerabilities here. Remove personal names, paths, tokens, product keys, documents, and raw logs.
+        보안 취약점은 이 양식을 사용하지 마세요. 실명, 전체 경로, 토큰, 제품 키, 개인 문서와 원본 로그를 제거해 주세요.
+  - type: input
+    id: version
+    attributes:
+      label: "PCSSAK version / 버전"
+      placeholder: "예: 0.1.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: windows
+    attributes:
+      label: "Windows"
+      options:
+        - "Windows 11 Home"
+        - "Windows 11 Pro"
+        - "Windows 10 Home"
+        - "Windows 10 Pro"
+        - "Other / 기타"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: "Environment / 환경"
+      description: "Architecture, display scale, administrator mode, and relevant drive format. / 아키텍처, 화면 배율, 관리자 실행 여부, 관련 드라이브 형식"
+      placeholder: "예: x64, 150% DPI, 관리자 실행, NTFS"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to reproduce / 재현 절차"
+      description: "Use synthetic names and remove private data. / 합성 이름을 사용하고 개인정보를 제거하세요."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Expected result / 기대 결과"
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: "Actual result and recovery state / 실제 결과와 복구 상태"
+      description: "State whether any system change occurred and whether it was recovered. / 시스템 변경 발생 여부와 복구 여부를 적으세요."
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: "Privacy confirmation / 개인정보 확인"
+      options:
+        - label: "I removed personal data, secrets, full local paths, and raw evidence. / 개인정보·비밀정보·전체 로컬 경로·원본 증거를 제거했습니다."
+          required: true
