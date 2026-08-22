@@ -25,5 +25,12 @@ Windows matrix are deferred; they are not `PASS`.
 4. Scan the archive and extracted folder, then extract only to a user-owned folder.
 5. Stop and report any warning or behavior whose origin and integrity you cannot verify.
 
-Update checks are user-requested and open the official page. PCssak does not
-automatically download, run, install, or roll back this package.
+When the user presses **Check for updates**, PCssak displays the status. If a newer
+version exists, the user may separately press the official download-page button.
+Nothing opens automatically, and PCssak does not automatically download, run, install,
+or roll back this package.
+
+Report reproducible non-security defects through
+[GitHub Issues](https://github.com/pcssakinc/pcssak-pc-optimizer-releases/issues)
+after removing private data. Use the repository's [private security path](../../SECURITY.md),
+not a public Issue, for an exploitable vulnerability.

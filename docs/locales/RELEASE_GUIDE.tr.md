@@ -25,5 +25,12 @@ ertelenmiştir; bunlar `PASS` değildir.
 4. Arşivi ve çıkarılan klasörü tarayın; yalnızca kullanıcıya ait klasöre çıkarın.
 5. Kaynağını veya bütünlüğünü doğrulayamadığınız uyarı ya da davranışta durup bildirin.
 
-Güncelleme denetimi yalnızca kullanıcı isteğiyle resmî sayfayı açar. PCssak paketi
-otomatik olarak indirmez, çalıştırmaz, kurmaz veya geri almaz.
+Kullanıcı **Güncellemeleri denetle** düğmesine bastığında PCssak durumu gösterir. Yeni
+bir sürüm varsa kullanıcı resmî indirme sayfası düğmesine ayrıca basarak sayfayı açabilir.
+Sayfa otomatik açılmaz; PCssak paketi otomatik olarak indirmez, çalıştırmaz, kurmaz veya
+geri almaz.
+
+Gizli verileri kaldırdıktan sonra tekrarlanabilir ve güvenlikle ilgili olmayan sorunları
+[GitHub Issues](https://github.com/pcssakinc/pcssak-pc-optimizer-releases/issues)
+üzerinden bildirin. Kötüye kullanılabilir açıklar için herkese açık Issue yerine
+[özel güvenlik yolunu](../../SECURITY.md) kullanın.

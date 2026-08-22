@@ -26,5 +26,12 @@ matriz completa de Windows están aplazadas y no son `PASS`.
 4. Analiza el ZIP y la carpeta extraída; extrae solo en una carpeta de tu usuario.
 5. Detente y reporta cualquier alerta o comportamiento cuyo origen no puedas verificar.
 
-La búsqueda de actualizaciones se inicia solo cuando la solicitas y abre la página
-oficial. PCssak no descarga, ejecuta, instala ni revierte el paquete automáticamente.
+Cuando presionas **Buscar actualizaciones**, PCssak muestra el estado. Si existe una
+versión nueva, puedes presionar por separado el botón de la página oficial de descarga.
+La página no se abre automáticamente y PCssak no descarga, ejecuta, instala ni revierte
+el paquete automáticamente.
+
+Reporta defectos reproducibles que no sean de seguridad mediante
+[GitHub Issues](https://github.com/pcssakinc/pcssak-pc-optimizer-releases/issues),
+después de eliminar datos privados. Para vulnerabilidades explotables, usa la
+[ruta de seguridad privada](../../SECURITY.md), no un Issue público.

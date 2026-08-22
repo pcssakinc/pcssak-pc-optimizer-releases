@@ -9,12 +9,14 @@ Please do not open a public issue for exploitable vulnerabilities, privilege esc
 권장 제보 경로:
 
 1. GitHub 저장소 상단의 **Security → Report a vulnerability**를 사용합니다.
-2. 해당 기능을 사용할 수 없으면 `support@pcssak.com`으로 최소 정보만 보냅니다.
+2. 해당 비공개 기능을 사용할 수 없으면 공개 Issue에 세부 내용을 쓰지 말고,
+   비공개 제보 경로가 마련될 때까지 기다려 주세요.
 
 Preferred reporting path:
 
 1. Use **Security → Report a vulnerability** in this repository.
-2. If that option is unavailable, email the minimum necessary details to `support@pcssak.com`.
+2. If that private function is unavailable, do not put details in a public Issue;
+   wait until a private reporting path is available.
 
 ## Include / 포함할 정보
 

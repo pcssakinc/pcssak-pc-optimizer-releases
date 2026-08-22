@@ -49,13 +49,13 @@ and the required Qt/PySide corresponding-source archives.
 | Architecture | Windows x64 only |
 | Format | Portable ZIP; no installer |
 | Archive | `PCSSAK_0.8.0_x64_Portable.zip` |
-| Public project identity | PCSSAK; support at `support@pcssak.com` |
+| Public distributor label | PCSSAK |
 | GitHub tag | `v0.8.0` only when the prerelease is actually published |
 | Code signature | Not provided in this phase |
-| Update behavior | User-requested check that opens the official page; no automatic download or installation |
+| Update behavior | A user-requested check shows status; when a newer version exists, the user may separately press the official download-page button |
 
-The public project identity and support address are contact information, not a verified
-Authenticode publisher identity.
+PCSSAK is the public distributor label for this phase. Because the executable is
+unsigned, that label is not an Authenticode-verified publisher identity.
 
 ## How to verify an official download
 
@@ -72,6 +72,9 @@ Authenticode publisher identity.
 Because the executable is unsigned, Windows may show **Unknown publisher**, SmartScreen,
 or antivirus warnings. A warning is neither proof of malware nor proof of safety. Stop
 and report the event if the source, filename, hash, or behavior cannot be verified.
+
+The update check does not open a page automatically. It does not automatically download,
+execute, install, or roll back a package.
 
 ## Portable-package behavior
 

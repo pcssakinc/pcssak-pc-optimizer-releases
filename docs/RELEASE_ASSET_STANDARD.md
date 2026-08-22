@@ -6,16 +6,17 @@ renamed from an older internal build.
 The first public test identity is:
 
 - product: `PCssak`;
-- public project identity and support: PCSSAK, `support@pcssak.com`;
+- public distributor label: `PCSSAK`;
 - version and display version: `0.8.0`;
-- channel: `unsigned-free-ea`;
+- channel: `free-ea`;
 - architecture: `x64`;
 - GitHub tag: `v0.8.0`;
 - distribution format: portable ZIP, not an installer;
 - primary archive: `PCSSAK_0.8.0_x64_Portable.zip`.
 
-This policy does not create the tag, Release, or archive.
-The public contact is not represented as an Authenticode-verified publisher identity.
+This policy does not create the tag, Release, or archive. Because the executable is
+unsigned, the public distributor label is not represented as an
+Authenticode-verified publisher identity.
 
 ## Exact 18-asset allowlist
 

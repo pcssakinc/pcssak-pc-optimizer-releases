@@ -35,9 +35,10 @@ this documentation change.
 
 - The first Free Early Access scope is limited primarily to read-only diagnostics.
   System-changing and Pro features may remain unavailable.
-- The program's update control checks only when the user requests it and opens the
-  official download page. It does not automatically download, execute, install, or
-  roll back a package.
+- The update control checks only when the user requests it and displays the result.
+  When a newer version exists, the user may separately press the official download-page
+  button. The check does not open a page, download, execute, install, or roll back a
+  package automatically.
 - Portable does not mean zero local state. Settings, logs, quarantine information,
   recovery records, or other application data may be stored outside the extracted
   folder.

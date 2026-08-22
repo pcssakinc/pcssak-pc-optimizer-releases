@@ -26,5 +26,12 @@ e a matriz completa do Windows foram adiadas e não são `PASS`.
 4. Verifique o ZIP e a pasta extraída; extraia somente em uma pasta do seu usuário.
 5. Interrompa e informe alertas ou comportamentos cuja origem não possa ser verificada.
 
-A verificação de atualização ocorre apenas quando solicitada e abre a página oficial.
-O PCssak não baixa, executa, instala nem reverte o pacote automaticamente.
+Quando o usuário pressiona **Verificar atualizações**, o PCssak mostra o status. Se
+houver uma versão nova, o usuário poderá pressionar separadamente o botão da página
+oficial de download. A página não abre automaticamente e o PCssak não baixa, executa,
+instala nem reverte o pacote automaticamente.
+
+Relate defeitos reproduzíveis que não sejam de segurança por meio do
+[GitHub Issues](https://github.com/pcssakinc/pcssak-pc-optimizer-releases/issues),
+depois de remover dados privados. Para vulnerabilidades exploráveis, use o
+[canal de segurança privado](../../SECURITY.md), não uma Issue pública.
