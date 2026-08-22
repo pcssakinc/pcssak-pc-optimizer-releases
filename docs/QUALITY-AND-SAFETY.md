@@ -1,6 +1,6 @@
 # Quality and Safety Publication Standard
 
-PCSSAK PC Optimizer uses verifiable evidence and accurate failure guidance as its release standard rather than promising that errors cannot occur.
+PCssak uses verifiable evidence and accurate failure guidance as its release standard rather than promising that errors cannot occur.
 
 ## Required before publication
 
