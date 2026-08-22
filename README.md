@@ -22,14 +22,18 @@ development evidence are maintained separately in a private repository.
 ## Current status
 
 > [!IMPORTANT]
-> This documentation change does not publish a tag, Release, executable, or archive.
+> **PCssak v0.8.0 is publicly available as an immutable GitHub Prerelease.**
+> [Open the official v0.8.0 Release](https://github.com/pcssakinc/pcssak-pc-optimizer-releases/releases/tag/v0.8.0).
 
-The planned first public test package is **PCssak 0.8.0 Unsigned Free Early Access**.
-It will be a Windows x64 portable archive named exactly:
+The first public test package is **PCssak 0.8.0 Unsigned Free Early Access**.
+It is a Windows x64 portable archive named exactly:
 
 ```text
 PCSSAK_0.8.0_x64_Portable.zip
 ```
+
+SHA-256:
+`88d9e2012b329242ab2903268f46ec5b4a6f69d06582d262cf706704cd0406aa`
 
 The package is intentionally unsigned for this Free Early Access phase. Authenticode
 publisher verification, external legal-counsel review, SmartScreen reputation, and the
@@ -50,7 +54,7 @@ and the required Qt/PySide corresponding-source archives.
 | Format | Portable ZIP; no installer |
 | Archive | `PCSSAK_0.8.0_x64_Portable.zip` |
 | Public distributor label | PCSSAK |
-| GitHub tag | `v0.8.0` only when the prerelease is actually published |
+| GitHub tag | [`v0.8.0`](https://github.com/pcssakinc/pcssak-pc-optimizer-releases/releases/tag/v0.8.0) |
 | Code signature | Not provided in this phase |
 | Update behavior | A user-requested check shows status; when a newer version exists, the user may separately press the official download-page button |
 
@@ -59,9 +63,8 @@ unsigned, that label is not an Authenticode-verified publisher identity.
 
 ## How to verify an official download
 
-1. Download only from this repository's
-   [Releases](https://github.com/pcssakinc/pcssak-pc-optimizer-releases/releases)
-   page after a `v0.8.0` prerelease is visible.
+1. Download only from the official
+   [`v0.8.0` Release](https://github.com/pcssakinc/pcssak-pc-optimizer-releases/releases/tag/v0.8.0).
 2. Confirm the exact archive name shown above.
 3. Compare the archive's SHA-256 with the exact entry in `SHA256SUMS.txt` from the
    same Release.

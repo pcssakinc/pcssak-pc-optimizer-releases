@@ -22,14 +22,18 @@
 ## 현재 상태
 
 > [!IMPORTANT]
-> 이번 문서 변경은 태그, Release, 실행 파일 또는 압축 파일을 게시하지 않습니다.
+> **PCssak v0.8.0이 불변 GitHub Prerelease로 공개되었습니다.**
+> [공식 v0.8.0 Release 열기](https://github.com/pcssakinc/pcssak-pc-optimizer-releases/releases/tag/v0.8.0)
 
-첫 공개 시험 패키지는 **PCssak 0.8.0 미서명 무료 얼리액세스**로 준비합니다.
+첫 공개 시험 패키지는 **PCssak 0.8.0 미서명 무료 얼리액세스**입니다.
 Windows x64 휴대용 압축 파일의 정확한 이름은 다음과 같습니다.
 
 ```text
 PCSSAK_0.8.0_x64_Portable.zip
 ```
+
+SHA-256:
+`88d9e2012b329242ab2903268f46ec5b4a6f69d06582d262cf706704cd0406aa`
 
 무료 얼리액세스 단계에서는 의도적으로 코드 서명을 제공하지 않습니다. Authenticode
 게시자 확인, 외부 법률 전문가 검토, SmartScreen 평판과 전체 Windows 실기 행렬은
@@ -50,7 +54,7 @@ Qt/PySide 대응 소스 압축 파일이 계속 포함되어야 합니다.
 | 형식 | 설치기 없는 휴대용 ZIP |
 | 압축 파일 | `PCSSAK_0.8.0_x64_Portable.zip` |
 | 공개 배포자 표기 | PCSSAK |
-| GitHub 태그 | 실제 Prerelease를 게시할 때만 `v0.8.0` |
+| GitHub 태그 | [`v0.8.0`](https://github.com/pcssakinc/pcssak-pc-optimizer-releases/releases/tag/v0.8.0) |
 | 코드 서명 | 이 단계에서는 제공하지 않음 |
 | 업데이트 | 사용자가 확인을 요청하면 상태를 표시하고, 새 버전이 있을 때 사용자가 별도 공식 다운로드 페이지 버튼을 누를 수 있음 |
 
@@ -59,9 +63,8 @@ Authenticode로 검증된 게시자 정체성이 아닙니다.
 
 ## 공식 다운로드 확인 방법
 
-1. `v0.8.0` Prerelease가 실제로 보인 뒤 이 저장소의
-   [Releases](https://github.com/pcssakinc/pcssak-pc-optimizer-releases/releases)
-   화면에서만 받습니다.
+1. 공식
+   [`v0.8.0` Release](https://github.com/pcssakinc/pcssak-pc-optimizer-releases/releases/tag/v0.8.0)에서만 받습니다.
 2. 위의 정확한 압축 파일명을 확인합니다.
 3. 같은 Release의 `SHA256SUMS.txt`에 기록된 SHA-256과 압축 파일을 비교합니다.
 4. 해시가 없거나 다르면 압축 파일과 추출한 파일의 실행을 중단합니다.

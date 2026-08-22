@@ -2,14 +2,15 @@
 
 Last updated: 2026-08-23
 
-This document describes the planned **Unsigned Free Early Access** portable
-prerelease. No `v0.8.0` tag, Release, executable, or portable archive is created by
-this documentation change.
+This document describes the published **Unsigned Free Early Access** portable
+prerelease [`v0.8.0`](https://github.com/pcssakinc/pcssak-pc-optimizer-releases/releases/tag/v0.8.0).
 
 ## Distribution and trust boundary
 
-- The only planned application archive is
+- The only official application archive is
   `PCSSAK_0.8.0_x64_Portable.zip` for Windows x64.
+- Its SHA-256 is
+  `88d9e2012b329242ab2903268f46ec5b4a6f69d06582d262cf706704cd0406aa`.
 - The archive uses no installer. It must be extracted to a user-owned folder.
 - `PCSSAK.exe` is intentionally not Authenticode-signed in this phase. Windows may
   display Unknown publisher, SmartScreen, or antivirus warnings.

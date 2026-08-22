@@ -5,14 +5,15 @@
 
 ## Status
 
-Durch diese Dokumentation werden weder Tag noch Release, Programmdatei oder Archiv
-veröffentlicht. Der erste öffentliche Test wird nach Fertigstellung als GitHub-Prerelease
-für Windows x64 bereitgestellt.
+Der erste öffentliche Test ist jetzt als unveränderliches GitHub-Prerelease
+[v0.8.0](https://github.com/pcssakinc/pcssak-pc-optimizer-releases/releases/tag/v0.8.0)
+für Windows x64 verfügbar.
 
 - Version: `0.8.0`
 - Paket: `PCSSAK_0.8.0_x64_Portable.zip`
 - Format: portables ZIP, kein Installationsprogramm
 - Signatur: im kostenlosen Early Access absichtlich unsigniert
+- SHA-256: `88d9e2012b329242ab2903268f46ec5b4a6f69d06582d262cf706704cd0406aa`
 
 Windows kann „Unbekannter Herausgeber“, SmartScreen- oder Virenschutzwarnungen anzeigen.
 Signierung, Herausgeberprüfung, externe Rechtsprüfung, SmartScreen-Reputation und die

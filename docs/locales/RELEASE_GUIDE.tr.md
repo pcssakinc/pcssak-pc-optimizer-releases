@@ -5,13 +5,15 @@
 
 ## Durum
 
-Bu belge değişikliği etiket, Release, çalıştırılabilir dosya veya arşiv yayımlamaz. İlk
-genel test hazır olduğunda Windows x64 için GitHub Prerelease olarak sunulacaktır.
+İlk genel test artık Windows x64 için değiştirilemez GitHub Prerelease
+[v0.8.0](https://github.com/pcssakinc/pcssak-pc-optimizer-releases/releases/tag/v0.8.0)
+olarak yayımlanmıştır.
 
 - Sürüm: `0.8.0`
 - Paket: `PCSSAK_0.8.0_x64_Portable.zip`
 - Biçim: kurulum programı içermeyen taşınabilir ZIP
 - İmza: ücretsiz erken erişimde bilinçli olarak imzasız
+- SHA-256: `88d9e2012b329242ab2903268f46ec5b4a6f69d06582d262cf706704cd0406aa`
 
 Windows Bilinmeyen yayımcı, SmartScreen veya antivirüs uyarısı gösterebilir. Kod imzası,
 yayımcı doğrulaması, harici hukuk incelemesi, SmartScreen itibarı ve tam Windows matrisi

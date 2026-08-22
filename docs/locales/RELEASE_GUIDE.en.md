@@ -5,13 +5,15 @@
 
 ## Status
 
-This documentation does not publish a tag, Release, executable, or archive. When the
-first public test is ready, it will appear as a GitHub Prerelease for Windows x64.
+The first public test is now available as the immutable GitHub Prerelease
+[v0.8.0](https://github.com/pcssakinc/pcssak-pc-optimizer-releases/releases/tag/v0.8.0)
+for Windows x64.
 
 - Version: `0.8.0`
 - Package: `PCSSAK_0.8.0_x64_Portable.zip`
 - Format: portable ZIP; no installer
 - Signature: intentionally unsigned for Free Early Access
+- SHA-256: `88d9e2012b329242ab2903268f46ec5b4a6f69d06582d262cf706704cd0406aa`
 
 Windows may show Unknown publisher, SmartScreen, or antivirus warnings. Signing,
 publisher verification, external legal review, SmartScreen reputation, and the full

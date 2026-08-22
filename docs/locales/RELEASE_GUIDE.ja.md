@@ -5,13 +5,15 @@
 
 ## 状態
 
-この文書の変更では、タグ、Release、実行ファイル、圧縮ファイルを公開しません。
-最初の公開テスト版は、準備完了後に Windows x64 用 GitHub Prerelease として公開します。
+最初の公開テスト版は、Windows x64 用の変更不能な GitHub Prerelease
+[v0.8.0](https://github.com/pcssakinc/pcssak-pc-optimizer-releases/releases/tag/v0.8.0)
+として公開されました。
 
 - バージョン: `0.8.0`
 - パッケージ: `PCSSAK_0.8.0_x64_Portable.zip`
 - 形式: インストーラーを使用しないポータブル ZIP
 - 署名: 無料アーリーアクセスでは意図的に未署名
+- SHA-256: `88d9e2012b329242ab2903268f46ec5b4a6f69d06582d262cf706704cd0406aa`
 
 Windows に「不明な発行元」、SmartScreen、またはウイルス対策の警告が表示される
 場合があります。署名、発行元確認、外部法務レビュー、SmartScreen 評価、および
