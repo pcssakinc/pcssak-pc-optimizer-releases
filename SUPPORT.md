@@ -2,17 +2,17 @@
 
 ## PCssak 0.8.0 Free Early Access boundary
 
-The planned first public test is **PCssak 0.8.0 Unsigned Free Early Access** for
+The first public test is **PCssak 0.8.0 Unsigned Free Early Access** for
 Windows x64. Its exact portable package name is:
 
 ```text
 PCSSAK_0.8.0_x64_Portable.zip
 ```
 
-This documentation does not publish the package, tag, or GitHub Release. Support for
-the executable begins only after the exact Prerelease and its hashes are publicly
-visible in this repository. The public distributor label is **PCSSAK**. No email-based
-support channel is published for this Free Early Access phase.
+The exact package and hashes are now public in the immutable
+[`v0.8.0` Prerelease](https://github.com/pcssakinc/pcssak-pc-optimizer-releases/releases/tag/v0.8.0),
+so Issue-based support for that exact archive is open. The public distributor label is
+**PCSSAK**. No email-based support channel is published for this Free Early Access phase.
 
 ## GitHub Issues support
 
@@ -65,17 +65,17 @@ and release notes are the public record of triage and corrections.
 
 ## PCssak 0.8.0 무료 얼리액세스 경계
 
-첫 공개 시험판은 Windows x64용 **PCssak 0.8.0 미서명 무료 얼리액세스**로
-준비합니다. 정확한 휴대용 패키지명은 다음과 같습니다.
+첫 공개 시험판은 Windows x64용 **PCssak 0.8.0 미서명 무료 얼리액세스**입니다.
+정확한 휴대용 패키지명은 다음과 같습니다.
 
 ```text
 PCSSAK_0.8.0_x64_Portable.zip
 ```
 
-이번 문서는 패키지, 태그 또는 GitHub Release를 게시하지 않습니다. 실행 파일 지원은
-정확한 Prerelease와 해시가 이 저장소에 실제로 공개된 뒤 시작합니다. 공개 배포자
-표기는 **PCSSAK**입니다. 무료 얼리액세스 단계에서는 이메일 지원 경로를 공개하지
-않습니다.
+정확한 패키지와 해시는 불변
+[`v0.8.0` Prerelease](https://github.com/pcssakinc/pcssak-pc-optimizer-releases/releases/tag/v0.8.0)에
+공개되었으므로 해당 압축 파일에 대한 Issue 지원을 시작합니다. 공개 배포자 표기는
+**PCSSAK**입니다. 무료 얼리액세스 단계에서는 이메일 지원 경로를 공개하지 않습니다.
 
 ## GitHub Issues 지원
 

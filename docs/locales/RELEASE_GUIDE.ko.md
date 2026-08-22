@@ -5,13 +5,15 @@
 
 ## 상태
 
-이번 문서는 태그, Release, 실행 파일 또는 압축 파일을 게시하지 않습니다. 첫 공개
-시험판이 준비되면 Windows x64용 GitHub Prerelease로 표시됩니다.
+첫 공개 시험판은 Windows x64용 불변 GitHub Prerelease
+[v0.8.0](https://github.com/pcssakinc/pcssak-pc-optimizer-releases/releases/tag/v0.8.0)으로
+게시되었습니다.
 
 - 버전: `0.8.0`
 - 패키지: `PCSSAK_0.8.0_x64_Portable.zip`
 - 형식: 설치기 없는 휴대용 ZIP
 - 서명: 무료 얼리액세스에서는 의도적으로 미서명
+- SHA-256: `88d9e2012b329242ab2903268f46ec5b4a6f69d06582d262cf706704cd0406aa`
 
 Windows에서 알 수 없는 게시자, SmartScreen 또는 백신 경고가 표시될 수 있습니다.
 서명, 게시자 확인, 외부 법률 검토, SmartScreen 평판과 전체 Windows 행렬은 연기

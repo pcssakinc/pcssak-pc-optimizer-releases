@@ -5,14 +5,15 @@
 
 ## Status
 
-Esta alteração de documentação não publica tag, Release, executável nem arquivo
-compactado. Quando estiver pronto, o primeiro teste público será disponibilizado como
-GitHub Prerelease para Windows x64.
+O primeiro teste público já está disponível como GitHub Prerelease imutável
+[v0.8.0](https://github.com/pcssakinc/pcssak-pc-optimizer-releases/releases/tag/v0.8.0)
+para Windows x64.
 
 - Versão: `0.8.0`
 - Pacote: `PCSSAK_0.8.0_x64_Portable.zip`
 - Formato: ZIP portátil sem instalador
 - Assinatura: intencionalmente sem assinatura no acesso antecipado gratuito
+- SHA-256: `88d9e2012b329242ab2903268f46ec5b4a6f69d06582d262cf706704cd0406aa`
 
 O Windows pode mostrar Editor desconhecido, SmartScreen ou alertas do antivírus. A
 assinatura, a validação do editor, a revisão jurídica externa, a reputação do SmartScreen

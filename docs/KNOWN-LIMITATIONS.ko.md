@@ -2,14 +2,16 @@
 
 최종 갱신: 2026-08-23
 
-이 문서는 예정된 **미서명 무료 얼리액세스** 휴대용 Prerelease의 제한을 설명합니다.
-이번 문서 변경으로 `v0.8.0` 태그, Release, 실행 파일 또는 휴대용 압축 파일을
-생성하지 않습니다.
+이 문서는 공개된 **미서명 무료 얼리액세스** 휴대용 Prerelease
+[`v0.8.0`](https://github.com/pcssakinc/pcssak-pc-optimizer-releases/releases/tag/v0.8.0)의
+제한을 설명합니다.
 
 ## 배포·신뢰 경계
 
-- 예정된 유일한 앱 압축 파일은 Windows x64용
+- 공식 앱 압축 파일은 Windows x64용
   `PCSSAK_0.8.0_x64_Portable.zip`입니다.
+- SHA-256은
+  `88d9e2012b329242ab2903268f46ec5b4a6f69d06582d262cf706704cd0406aa`입니다.
 - 설치기를 사용하지 않으며 사용자 소유 폴더에 압축을 풀어야 합니다.
 - 이 단계의 `PCSSAK.exe`는 의도적으로 Authenticode 서명을 하지 않습니다.
   Windows에서 알 수 없는 게시자, SmartScreen 또는 백신 경고가 표시될 수 있습니다.

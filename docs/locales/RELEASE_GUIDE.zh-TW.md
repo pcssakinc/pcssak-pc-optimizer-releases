@@ -5,13 +5,15 @@
 
 ## 狀態
 
-本次文件變更不會發佈標籤、Release、執行檔或壓縮檔。第一個公開測試版準備完成後，
-將以 Windows x64 GitHub Prerelease 的形式提供。
+第一個公開測試版現已作為 Windows x64 不可變 GitHub Prerelease
+[v0.8.0](https://github.com/pcssakinc/pcssak-pc-optimizer-releases/releases/tag/v0.8.0)
+發佈。
 
 - 版本：`0.8.0`
 - 套件：`PCSSAK_0.8.0_x64_Portable.zip`
 - 格式：免安裝可攜式 ZIP
 - 簽署：免費搶先體驗階段刻意不進行程式碼簽署
+- SHA-256：`88d9e2012b329242ab2903268f46ec5b4a6f69d06582d262cf706704cd0406aa`
 
 Windows 可能顯示「未知的發行者」、SmartScreen 或安全軟體警告。程式碼簽署、
 發行者驗證、外部法律審查、SmartScreen 信譽與完整 Windows 實機矩陣均已延後，
